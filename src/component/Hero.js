@@ -9,22 +9,24 @@ import 'boxicons/css/boxicons.min.css'
 import 'glightbox/dist/css/glightbox.min.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import 'aos/dist/aos.css'
+import { useDataContext } from '../Provider/DataProvider';
 
-export const Hero = ({herodata, socialLinks}) => {
+export const Hero = () => {
 
-    console.log(herodata)
+    
+    let data = useDataContext();
+    // console.log(data)
 
     const el = React.useRef(null);
 
     React.useEffect(() => {
         const typed = new Typed(el.current, {
-          strings: herodata,
+          strings: data.heroData,
           loop: true,
           typeSpeed: 100,
           backSpeed: 50,
           backDelay: 2000
         });
-    
         return () => {
           // Destroy Typed instance during cleanup to stop animation
           typed.destroy();
@@ -38,7 +40,7 @@ export const Hero = ({herodata, socialLinks}) => {
             <div className="container" data-aos="zoom-in" data-aos-delay="100">
                 <h1>Brandon Johnson</h1>
                 <p>I'm <span className="typed" ref={el}></span></p>
-                <SocialMediaLinks sociallinks={socialLinks} />
+                <SocialMediaLinks />
             </div>
         </section>
     )
