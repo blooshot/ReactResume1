@@ -6,5 +6,14 @@
         "instagram":"https://www.instagram.com/yourusername",
         "googleplus":"https://plus.google.com/yourusername",
         "linkedin":"https://www.linkedin.com/in/yourusername"
+    },
+    "skills":{
+        "html":"100",
+        "css":"90",
+        "javascript":"75",
+        "php":"80",
+        "wordpress/cms":"90",
+        "photoshop":"55"
     }
+
 }

@@ -23,14 +23,14 @@ const Bhasad = () => {
       <script src="/js/typed.min.js"></script>
       <script src="/js/noframework.waypoints.js"></script>
       <script src="/js/main.js"></script> */}
-      {AddLibrary('/js/purecounter_vanilla.js')}
+      {/* {AddLibrary('/js/purecounter_vanilla.js')} */}
       {AddLibrary('/js/aos.js')}
       {AddLibrary('/js/bootstrap.bundle.min.js')}
       {AddLibrary('/js/glightbox.min.js')}
       {AddLibrary('/js/isotope.pkgd.min.js')}
       {AddLibrary('/js/swiper-bundle.min.js')}
       {/* {AddLibrary('/js/typed.min.js')} */}
-      {AddLibrary('/js/noframework.waypoints.js')}
+      {/* {AddLibrary('/js/noframework.waypoints.js')} */}
       
 
       {AddLibrary('/js/main.js')}

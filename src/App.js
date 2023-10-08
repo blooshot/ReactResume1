@@ -1,5 +1,5 @@
-import data from "../src/data/data.json"
 import './App.css';
+import DataProvider from './Provider/DataProvider';
 import Headnav from './component/Headnav.js'
 import Hero from './component/Hero.js'
 import Bhasad from './component/Bhasad.js'
@@ -8,13 +8,13 @@ import Main from './component/Main.js'
 
 function App() {
   return (
-    <>
-    <Headnav /> 
-    <Hero herodata={data.heroData} socialLinks={data.socialLinks} />
-    <Main/>
-    <Footer/>
-    <Bhasad />
-    </>
+    <DataProvider>
+      <Headnav />
+      <Hero />
+      <Main />
+      <Footer />
+      <Bhasad />
+    </DataProvider>
   );
 }
 
