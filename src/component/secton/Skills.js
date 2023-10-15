@@ -23,7 +23,7 @@ const Skills = () => {
 
           {Object.keys(listofskills).map((key, index) => {
             return (
-              <div className="col-lg-6">
+              <div className="col-lg-6" key={key}>
                 <ProgressClass skillname={key} percentage={listofskills[key]} />
               </div>
             );

@@ -11,3 +11,4 @@
 * npm i react-router-dom@6
 * npm install react-waypoint --save
 * npm install typed.js
+* npm i swiper

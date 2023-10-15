@@ -14,6 +14,38 @@
         "php":"80",
         "wordpresscms":"90",
         "photoshop":"55"
-    }
+    },
+    "testinomial":[
+        {
+            "name":"Saul Goodman",
+            "position":"Ceo & Founder",
+            "review":"Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.",
+            "imageurl":"/img/testimonials/testimonials-1.jpg"
+        },
+        {
+            "name":"Sara Wilsson",
+            "position":"Designer",
+            "review":"Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.",
+            "imageurl":"/img/testimonials/testimonials-2.jpg"
+        },
+        {
+            "name":"Jena Carlis",
+            "position":"Store Owner",
+            "review":"Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.",
+            "imageurl":"/img/testimonials/testimonials-3.jpg"
+        },
+        {
+            "name":"Matt Brandon",
+            "position":"Freelancer",
+            "review":"Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.",
+            "imageurl":"/img/testimonials/testimonials-4.jpg"
+        },
+        {
+            "name":"John Larson",
+            "position":"Entreprenuer",
+            "review":"Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.",
+            "imageurl":"/img/testimonials/testimonials-5.jpg"
+        }
+    ]
 
 }
