@@ -21,7 +21,7 @@ export const Hero = () => {
 
     React.useEffect(() => {
         const typed = new Typed(el.current, {
-          strings: data.heroData,
+          strings: data.hero,
           loop: true,
           typeSpeed: 100,
           backSpeed: 50,

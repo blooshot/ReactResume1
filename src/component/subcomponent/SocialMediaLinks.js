@@ -8,11 +8,11 @@ import { useDataContext } from '../../Provider/DataProvider';
 
     return (
         <div className="social-links">
-         { data.socialLinks.twitter ? (<a href={ data.socialLinks.twitter } className="twitter"><i className="bx bxl-twitter"></i></a>) : "" }
-         {data.socialLinks.facebook ? (<a href={ data.socialLinks.facebook } className="facebook"><i className="bx bxl-facebook"></i></a>) : "" }
-         {data.socialLinks.instagram ? (<a href={ data.socialLinks.instagram } className="instagram"><i className="bx bxl-instagram"></i></a>) : "" }
-         {data.socialLinks.googleplus ? (<a href={ data.socialLinks.googleplus } className="google-plus"><i className="bx bxl-skype"></i></a>) : "" }
-         {data.socialLinks.linkedin ? (<a href={ data.socialLinks.linkedin } className="linkedin"><i className="bx bxl-linkedin"></i></a>) : "" }
+         { data.social.twitter ? (<a href={ data.social.twitter } className="twitter"><i className="bx bxl-twitter"></i></a>) : "" }
+         {data.social.facebook ? (<a href={ data.social.facebook } className="facebook"><i className="bx bxl-facebook"></i></a>) : "" }
+         {data.social.instagram ? (<a href={ data.social.instagram } className="instagram"><i className="bx bxl-instagram"></i></a>) : "" }
+         {data.social.googleplus ? (<a href={ data.social.googleplus } className="google-plus"><i className="bx bxl-skype"></i></a>) : "" }
+         {data.social.linkedin ? (<a href={ data.social.linkedin } className="linkedin"><i className="bx bxl-linkedin"></i></a>) : "" }
     </div>
     );
 }
