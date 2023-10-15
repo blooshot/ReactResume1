@@ -28,7 +28,7 @@ const Bhasad = () => {
       {AddLibrary('/js/bootstrap.bundle.min.js')}
       {AddLibrary('/js/glightbox.min.js')}
       {AddLibrary('/js/isotope.pkgd.min.js')}
-      {AddLibrary('/js/swiper-bundle.min.js')}
+      {/* AddLibrary('/js/swiper-bundle.min.js') */}
       {/* {AddLibrary('/js/typed.min.js')} */}
       {/* {AddLibrary('/js/noframework.waypoints.js')} */}
       
